@@ -1,0 +1,17 @@
+body {
+  background: linear-gradient(to right, #ffffff, #d4dfed);
+}
+
+.animate-progress {
+  animation: progress 3s linear forwards;
+}
+
+@keyframes progress {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 0%;
+  }
+}
